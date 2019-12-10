@@ -14,9 +14,9 @@ import Icon from 'react-native-ico-file-folder';
 render() {
     return (
         <Fragment>
-          <Icon name="home" />
-          <Icon name="file" height="40" width="40" />
-          <Icon name="smile" color="red" />
+          <Icon name="css" />
+          <Icon name="ai" height="40" width="40" />
+          <Icon name="cdr" color="red" />
         </Fragment>
     );
 }
