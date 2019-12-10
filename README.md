@@ -1,6 +1,6 @@
-# react-native-ico-file-folder
+# File Folder Icons for React Native
 
-### File Folder Icons for React Native
+### react-native-ico-file-folder
 
 220 Icons
 
@@ -13,15 +13,19 @@ import Icon from 'react-native-ico-file-folder';
 // Inside some view component
 render() {
     return (
-        <Fragment>
+        <>
           <Icon name="css" />
           <Icon name="ai" height="40" width="40" />
           <Icon name="cdr" color="red" />
-        </Fragment>
+        </>
     );
 }
 
 ```
+
+## List of icons
+
+- [List of File Folder Icons](static/file-folder.md)
 
 ## Installation
 
@@ -63,13 +67,9 @@ width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
 ...rest | no | | other props | style={{backgroundColor: "#00f"}}
 
-## List of icons
-
-- [List of File Folder Icons](static/file-folder.md)
-
 ## Icons Made by
 
-[Dave Gandy](https://www.flaticon.com/authors/dave-gandy)
+[DinosoftLabs](https://www.flaticon.com/authors/dinosoftlabs)
 
 ## Created by
 
