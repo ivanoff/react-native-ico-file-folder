@@ -25,7 +25,7 @@ render() {
 
 ## List of icons
 
-- [List of File Folder Icons](static/file-folder.md)
+- [List of File Folder Icons](http://ico.simpleness.org/pack/file-folder)
 
 ## Installation
 
