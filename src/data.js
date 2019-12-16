@@ -1,4 +1,4 @@
-module.exports = `
+module.exports = {
 	'folder-42': `<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 468.293 468.293" style="enable-background:new 0 0 468.293 468.293;" xml:space="preserve">
 <path style="fill:#FCD462;" d="M418.431,391.347H0v-306.4c0-15.658,12.693-28.351,28.351-28.351h147.166
@@ -5116,4 +5116,4 @@ module.exports = `
 	c0,5.155,2.807,9.613,6.946,12.056v15.96c0,3.921,3.179,7.099,7.099,7.099c3.921,0,7.099-3.178,7.099-7.099v-15.96
 	C245.384,347.984,248.192,343.526,248.192,338.371z"/>
 </svg>
-``
+`}
