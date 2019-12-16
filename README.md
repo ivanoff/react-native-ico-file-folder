@@ -1,8 +1,8 @@
-# file folder Icons for React Native
+# File Folder Icons for React Native
 
 ### react-native-ico-file-folder
 
-369 Icons
+220 Icons
 
 ## Usage
 
@@ -25,7 +25,7 @@ render() {
 
 ## List of icons
 
-- [List of file folder Icons](http://ico.simpleness.org/pack/file-folder)
+- [List of File Folder Icons](http://ico.simpleness.org/pack/file-folder)
 
 ## Installation
 
