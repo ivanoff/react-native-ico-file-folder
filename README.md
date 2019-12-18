@@ -14,9 +14,9 @@ import Icon from 'react-native-ico-file-folder';
 render() {
     return (
         <>
-          <Icon name="004-folder-41" />
-          <Icon name="005-outbox" height="40" width="40" />
-          <Icon name="006-text" color="red" />
+          <Icon name="folder-41" />
+          <Icon name="outbox" height="40" width="40" />
+          <Icon name="text" color="red" />
         </>
     );
 }
@@ -61,7 +61,7 @@ Returns a SvgXml icon by name and group.
 
  name | optional | default value | description | examples
 ------|----------|---------------|-------------|---------
-name | no |  | name of file | "004-folder-41"
+name | no |  | name of file | "folder-41"
 color | yes | | line color, css style | "#00ff00", "#0f0", "green"
 width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40

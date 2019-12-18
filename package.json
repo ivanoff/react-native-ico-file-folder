@@ -1,6 +1,6 @@
 {
   "name": "react-native-ico-file-folder",
-  "version": "2.5.1",
+  "version": "2.5.2",
   "description": "File Folder Icons for React Native",
   "main": "src/index.js",
   "dependencies": {
