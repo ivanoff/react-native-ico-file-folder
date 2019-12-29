@@ -1,13 +1,19 @@
 # File Folder Icons for React Native
 
-### react-native-ico-file-folder
+### react-native-ico-outbox-folder
 
-220 Icons
+369 Vector Icons for React Native
+
+<img src="./static/folder-41.png" alt="folder-41" width="150" height="150"> <img src="./static/outbox.png" alt="outbox" width="150" height="150"> <img src="./static/text.png" alt="text" width="150" height="150">
+
+## List of icons
+
+- [List of File Folder Icons](http://ico.simpleness.org/pack/outbox-folder)
 
 ## Usage
 
 ```
-import Icon from 'react-native-ico-file-folder';
+import Icon from 'react-native-ico-outbox-folder';
 
 
 // Inside some view component
@@ -23,22 +29,18 @@ render() {
 
 ```
 
-## List of icons
-
-- [List of File Folder Icons](http://ico.simpleness.org/pack/file-folder)
-
 ## Installation
 
 #### yarn
 
 ```bash
-yarn add react-native-ico-file-folder react-native-svg
+yarn add react-native-ico-outbox-folder react-native-svg
 ```
 
 #### npm
 
 ```bash
-npm install --save react-native-ico-file-folder react-native-svg
+npm install --save react-native-ico-outbox-folder react-native-svg
 ```
 
 ### Link react-native-svg
@@ -61,7 +63,7 @@ Returns a SvgXml icon by name and group.
 
  name | optional | default value | description | examples
 ------|----------|---------------|-------------|---------
-name | no |  | name of file | "folder-41"
+name | no |  | name of icon | "folder-41"
 color | yes | | line color, css style | "#00ff00", "#0f0", "green"
 width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
