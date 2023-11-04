@@ -223,7 +223,30 @@ declare module 'react-native-ico-file-folder' {
       'mkv' |
       'folder';
 
+    type iconColors = '#1C75A1' |
+      '#27A2DB' |
+      '#2D93BA' |
+      '#31978C' |
+      '#3A556A' |
+      '#3EA69B' |
+      '#44C4A1' |
+      '#64798A' |
+      '#D15241' |
+      '#D5D6DB' |
+      '#DC8744' |
+      '#DEDFE0' |
+      '#E1E6E9' |
+      '#E56353' |
+      '#E5AE4E' |
+      '#EBECED' |
+      '#EBF0F3' |
+      '#F6C358' |
+      '#FCD462' |
+      '#FFFFFF';
+
     type backgroundType = 'circle' | 'rect' | 'button';
+
+    type colorsType = Record<iconColors, string>;
 
     type positionType = 'top' | 'bottom' | 'right' | 'left' |
       'top_right' | 'top_left' | 'bottom_right' | 'bottom_left';
@@ -240,6 +263,7 @@ declare module 'react-native-ico-file-folder' {
       fontSize?: string;
       position?: positionType;
       color?: string;
+      colors: colorsType;
       backgroundColor?: string;
       radius?: number;
     };
@@ -249,6 +273,7 @@ declare module 'react-native-ico-file-folder' {
       width?: number;
       height?: number;
       color?: string;
+      colors: colorsType;
       stroke?: number;
       background?: backgroundType | backgroundTypeObj;
       badge?: number | string | badgeTypeObj;
